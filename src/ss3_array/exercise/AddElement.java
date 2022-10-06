@@ -17,13 +17,10 @@ public class AddElement {
         if (X == -1 || X == array.length - 1) {
             System.out.println("không thể chèn");
         } else {
-            for (int i = 0; i < array.length; i++) {
-                if (viTri == i) {
-                    for (int j = array.length-1; j >i ; j--) {
-                        array[j]=array[j-1];
+            for (int i =0; i <array.length; i++) {
+                    if (viTri==i){
+                        array[i]=X;
                     }
-                    viTri= X;
-                }
             }
         }
         System.out.println(Arrays.toString(array));

@@ -30,7 +30,7 @@ public class FindMaxInMultiArray {
                 array[i][j] = Integer.parseInt(scanner.nextLine());
             }
         }
-      
+
     }
 
 }
