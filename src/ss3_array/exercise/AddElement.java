@@ -10,6 +10,7 @@ public class AddElement {
         System.out.println(Arrays.toString(array));
         Scanner scanner = new Scanner(System.in);
         System.out.println("số cần chèn");
+
         int X = scanner.nextInt();
         Scanner scanner1 = new Scanner(System.in);
         System.out.println("vị trí số muốn chèn:");

@@ -11,7 +11,6 @@ public class DeleteElement {
         int phanTuXoa= scanner.nextInt();
         for (int i = 0; i <array.length ; i++) {
             if (phanTuXoa == array[i]){
-//                System.out.println("vị trí phần tử muốn xóa :"+i);
                 for (int j = array[i]; j <array.length ; j++) {
                     array[i]=array[i+1];
                     array[array.length-1]=0;
