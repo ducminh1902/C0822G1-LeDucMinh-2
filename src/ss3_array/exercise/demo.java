@@ -3,9 +3,9 @@ package ss3_array.exercise;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class TotalDiagonalLine {
+public class demo {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner =new Scanner(System.in);
         int cot;
         do {
             System.out.println("hãy nhập số cột");
@@ -39,14 +39,6 @@ public class TotalDiagonalLine {
                 break;
             }
         }
-        int a = 0;
-        for (int i = array.length - 1; i >= 0; i--) {
-            for (int j = a; j < array[i].length; j++) {
-                sum += array[i][j];
-//                break;
-            }
-            a++;
-        }
-        System.out.println("tổng đường chéo" + sum);
+
     }
 }
