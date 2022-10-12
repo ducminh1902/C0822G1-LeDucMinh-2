@@ -4,7 +4,7 @@ import ss5_access_modifier_static_method_static_property.Circle;
 
 public class Circle2 {
     public static void main(String[] args) {
-        ss5_access_modifier_static_method_static_property.Circle testCircle = new Circle(3);
+      Circle testCircle = new Circle(3);
         testCircle.getRadius();
         testCircle.getArea();
 
