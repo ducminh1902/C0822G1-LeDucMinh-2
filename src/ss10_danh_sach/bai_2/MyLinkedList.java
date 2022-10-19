@@ -1,4 +1,4 @@
-package ss10_danh_sach_bai_2;
+package ss10_danh_sach.bai_2;
 
 public class MyLinkedList<E> {
     private class Node {
