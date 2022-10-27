@@ -19,8 +19,11 @@ public class Read {
         }
         bufferedReader.close();
 
-        for (Country c:countryList) {
-            System.out.println(c);
+//        for (Country c:countryList) {
+//            System.out.println(c);
+//        }
+        for (int i = 0; i <countryList.size() ; i++) {
+            System.out.println(countryList.get(i));
         }
     }
 }

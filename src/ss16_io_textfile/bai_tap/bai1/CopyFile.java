@@ -14,9 +14,14 @@ public class CopyFile {
         List<String> array = new ArrayList();
 
         String line;
+        String[] array1;
+        int sum =0;
         while ((line = bufferedReader.readLine()) != null){
             array.add(line);
+            array1= line.split("");
+            sum +=array1.length;
         }
+        System.out.println("tổng số ký tự trong tệp:"+sum);
         bufferedReader.close();
 
 
