@@ -2,16 +2,16 @@ package case_study_furama.model.person;
 
 public class People {
     private String name;
-    private int old;
+    private String old;
     private String gender;
     private int idNumber;
-    private int phoneNumber;
+    private String phoneNumber;
 
 
     public People() {
     }
 
-    public People(String name, int old, String gender, int idNumber, int phoneNumber) {
+    public People(String name, String old, String gender, int idNumber, String phoneNumber) {
         this.name = name;
         this.old = old;
         this.gender = gender;
@@ -27,11 +27,11 @@ public class People {
         this.name = name;
     }
 
-    public int getOld() {
+    public String getOld() {
         return old;
     }
 
-    public void setOld(int old) {
+    public void setOld(String old) {
         this.old = old;
     }
 
@@ -51,11 +51,11 @@ public class People {
         this.idNumber = idNumber;
     }
 
-    public int getPhoneNumber() {
+    public String getPhoneNumber() {
         return phoneNumber;
     }
 
-    public void setPhoneNumber(int phoneNumber) {
+    public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
     }
 

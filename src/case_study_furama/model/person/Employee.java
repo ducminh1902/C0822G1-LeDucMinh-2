@@ -3,14 +3,15 @@ package case_study_furama.model.person;
 public class Employee extends People {
     private int idEmployee;
     private String level;
-    private double wage;
-    private int position;
+    private String wage;
+    private String position;
     private String email;
 
     public Employee() {
     }
 
-    public Employee(String name, int old, String gender, int idNumber, int phoneNumber, int idEmployee, String level, double wage, int position, String email) {
+    public Employee(String name, String old, String gender, int idNumber, String phoneNumber, int idEmployee, String level, String wage, String position, String email) {
+
         super(name, old, gender, idNumber, phoneNumber);
         this.idEmployee = idEmployee;
         this.level = level;
@@ -35,19 +36,19 @@ public class Employee extends People {
         this.level = level;
     }
 
-    public double getWage() {
+    public String getWage() {
         return wage;
     }
 
-    public void setWage(double wage) {
+    public void setWage(String wage) {
         this.wage = wage;
     }
 
-    public int getPosition() {
+    public String getPosition() {
         return position;
     }
 
-    public void setPosition(int position) {
+    public void setPosition(String position) {
         this.position = position;
     }
 

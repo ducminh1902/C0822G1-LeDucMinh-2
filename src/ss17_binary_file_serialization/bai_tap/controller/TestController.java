@@ -40,10 +40,6 @@ public class TestController {
 
     }
 
-    File file = new File("src\\ss17_binary_file_serialization\\bai_tap\\data\\product.csv");
-    FileReader fileReader = new FileReader(file);
-    BufferedReader bufferedReader = new BufferedReader(fileReader);
 
-    String line
 
 }
